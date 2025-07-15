@@ -16,7 +16,7 @@ function Gato(Idade, Peso, Raca){
         Animal.call(this, Idade, Peso);
         this.Raca = Raca;
 
-         if(Idade <= 5){
+         if(Idade <= 4){
             console.log("Adotar!")
         }
 }
